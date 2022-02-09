@@ -26,6 +26,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> Încă nu a fost anunțată o dată de lansare. </font></div>';
+    document.getElementById("countdown").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> HBO Max a fost lansat ! Abonați-vă pe <a href="https://www.hbomax.com/ro/ro" target="_blank">hbomax.com</a>. </font></div>';
   }
 }, 1000);
